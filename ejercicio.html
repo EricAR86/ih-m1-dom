@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ironhack M1 - DOM - Ejercicio</title>
+</head>
+<body>
+	
+	<form id="formulario">
+		<label>Tu nombre</label>
+		<input name="nombre" type="text">
+
+		<br />
+
+		<label>Tu email</label>
+		<input name="email" type="email">
+
+		<br />
+
+		<label>Tu cumpleaños</label>
+		<input name="birthDate" type="date">
+
+		<br />
+		
+		<input name="dessert" type="checkbox">
+		¿Quieres recibir un helado de cortesía?
+		</input>
+
+		<br />
+
+		<label>Elige un número</label>
+		<select id="decisions">
+			<option value="1">Uno</option>
+			<option value="2">Dos</option>
+			<option value="3">Tres</option>
+			<option value="4">Cuatro</option>
+		</select>
+
+		<button id="enviar" type="submit">
+			Enviar datos
+		</button>
+
+	</form>
+
+	<hr />
+
+    <form id="formulario2">
+        <label>Nombre</label>
+        <input name="nombre2" type="text">
+        <br>
+
+        <label>Correo</label>
+        <input name="correo2" type="email">
+        <br>
+
+        <label>Fecha Nacimiento</label>
+        <input name="nacimiento" type="date">
+        <br>
+
+        <input name="suscribirse" type="checkbox">
+		¿Quieres suscribirte al boletín?
+		</input>
+        <br>
+
+        <label>Elige una ciudad</label>
+		<select id="ciudades">
+			<option value="1">Mexico</option>
+			<option value="2">Paris</option>
+			<option value="3">Amsterdam</option>
+			<option value="4">Berlín</option>
+		</select>
+        <br>
+        <button id="enviar2" type="submit">
+			Enviar datos
+		</button>
+    </form>
+
+    <div id="resultados"></div>
+
+	<script src="./ejercicio.js"></script>
+</body>
+</html>
